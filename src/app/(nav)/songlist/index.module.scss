@@ -1,0 +1,24 @@
+.container {
+  padding-top: 40px;
+  color: #f8f8f8;
+  .category {
+    display: flex;
+    column-gap: 22px;
+    &>div {
+      width: 240px;
+      &:first-of-type {
+        width: 160px;
+      }
+    }
+  }
+  .title {
+    font-size: 28px;
+    margin-top: 55px;
+    .clear {
+      margin-left: 6px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

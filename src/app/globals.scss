@@ -1,0 +1,28 @@
+@import "normalize.css";
+@import "@/assets/styles/global.variable.css";
+
+html {
+  font-size: 14px;
+  font-weight: 400;
+  min-height: 100vh;
+  color: var(--title-color);
+  body {
+    background: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    a {
+      all: unset;
+      color: var(--link-color);
+      -webkit-user-drag: none;
+      transition: all .3s ease-in;
+      &:hover {
+        color: var(--link-hover-color);
+        cursor: pointer;
+        transition: all .5s ease-out;
+      }
+    }
+    img {
+      -webkit-user-drag: none;
+    }
+  }
+}

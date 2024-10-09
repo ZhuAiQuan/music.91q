@@ -1,0 +1,44 @@
+{
+  "id": "4626920",
+  "name": "music.91q",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1290296",
+      "name": "Close",
+      "font_class": "Close",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1150489",
+      "name": "arrow",
+      "font_class": "arrow-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "372103",
+      "name": "cc-arrow-left",
+      "font_class": "cc-arrow-left",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "372106",
+      "name": "cc-arrow-right",
+      "font_class": "cc-arrow-right",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "594009",
+      "name": "PLAY",
+      "font_class": "play",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+/* 一些全局变量存放 */
+:root {
+  --head-bg-color: #24262b;
+  --basic-bg-color: #1a1c21;
+  --title-color: #f8f8f8;
+  --text-color: #98a7b5;
+  --theme-color: #ffc48c;
+  --verify-error-color: #da4823;
+  --theme-linear: linear-gradient(92deg, #ffd5ae 0%, #edab6f 97.07%);
+  --link-color: #909399;
+  --link-active-color: #f8f8f8;
+  --link-hover-color: #e61723;
+  --background-color: #303133;
+}

@@ -1,0 +1,89 @@
+.container {
+  font-size: 13px;
+  color: #f8f8f8;
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    .row {
+      display: flex;
+      column-gap: 10px;
+      .tag {
+        all: unset;
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        width: 70px;
+        border-radius: 20px;
+        transition: all .25s ease-in .2s;
+        background-color: #000;
+        &:hover {
+          cursor: pointer;
+          color: #fff;
+          transition: all .3s ease;
+        }
+        &.active {
+          background-color: #e61723;
+          color: #fff;
+          transition: all .35s ease;
+        }
+      }
+      .more {
+        color: #909399;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s ease-in;
+        &:hover {
+          color: #909399;
+        }
+        .arrow {
+          transform: rotate(360deg);
+          transition: all .3s ease-in;
+        }
+        &.expand {
+          color: #fff;
+          transition: all .2s ease .2s;
+          .arrow {
+            transform: rotate(180deg);
+            transition: all .3s ease;
+          }
+        }
+        .expand-list {
+          opacity: 0;
+          z-index: -1;
+          position: absolute;
+          width: 350px;
+          top: 42px;
+          box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+          padding: 12px;
+          box-sizing: border-box;
+          border-radius: 4px;
+          background-color: #fff;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          color: #f8f8f8;
+          &::after {
+            content: '';
+            position: absolute;
+            top: -6px;
+            border-width: 6px;
+            border-color: transparent;
+            border-style: solid;
+            border-bottom-color: #fff;
+            border-top-width: 0;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+}

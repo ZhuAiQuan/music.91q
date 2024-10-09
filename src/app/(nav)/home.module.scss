@@ -1,0 +1,29 @@
+.container {
+  .navlist {
+    margin-bottom: 30px;
+  }
+  .artist-container {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+  .songlist-container {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    .songlist-context {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      width: max-content;
+    }
+  }
+  .new-song-recomment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .cl-30 {
+    column-gap: 50px;
+  }
+}
